@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <head>
+<body>
+    <div class="container">
+        <h1> Temperature Converter</h1>
+        <div class="converter-box">
+            <div class="input-group">
+                <input type="number" id="celsius" placeholder="Celsius (°C)" oninput="convertTemp('celsius')">
+                <span class="unit">°C</span>
+            </div>
+            <div class="input-group">
+                <input type="number" id="fahrenheit" placeholder="Fahrenheit (°F)" oninput="convertTemp('fahrenheit')">
+                <span class="unit">°F</span>
+            </div>
+            <div class="input-group">
+                <input type="number" id="kelvin" placeholder="Kelvin (K)" oninput="convertTemp('kelvin')">
+                <span class="unit">K</span>
+            </div>
+        </div>
+        <div class="info">
+            <h3>Common Conversions:</h3>
+            <ul>
+                <li>0°C = 32°F (Water freezes)</li>
+                <li>100°C = 212°F (Water boils)</li>
+                <li>-40°C = -40°F (Same temperature)</li>
+                <li>0K = -273.15°C (Absolute zero)</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 Temperature Converter | Made with Saendeep Kumar</p>
+    </footer>
+    <script src="scrpit.js"></script>
+</body>
+</html>
